@@ -57,7 +57,43 @@ void main() {
     System.out.println(STR."+\{"=".repeat(14)}+");
     System.out.printf("|%8s|%5s|%n", "Name", "ID");
     System.out.println(STR."+\{"=".repeat(14)}+");
-    System.out.printf("|%8s|%5d|%n", studentName1, studentMarks1);
+
+//    String maxStudentName = null;
+//    int maxStudentMarks = -1;
+//    for (int i = 0; i < 5; i++) {
+//        if (i == 1  && studentName2 == null) break;
+//        if (i == 2  && studentName3 == null) break;
+//        if (i == 3  && studentName4 == null) break;
+//        if (i == 4  && studentName5 == null) break;
+//
+//        int marks;
+//        String name;
+//
+//        if (i == 0){
+//            name = studentName1;
+//            marks = studentMarks1;
+//        }else if (i == 1){
+//            name = studentName2;
+//            marks = studentMarks2;
+//        }else if (i == 2){
+//            name = studentName3;
+//            marks = studentMarks3;
+//        }else if (i == 3){
+//            name = studentName4;
+//            marks = studentMarks4;
+//        }else{
+//            name = studentName5;
+//            marks = studentMarks5;
+//        }
+//
+//        if (marks > maxStudentMarks){
+//            maxStudentMarks = marks;
+//            maxStudentName = name;
+//        }
+//    }
+//    printStudentRecord(maxStudentName, maxStudentMarks);
+
+    printStudentRecord(studentName1, studentMarks1);
     if (studentName2 != null) printStudentRecord(studentName2, studentMarks2);
     if (studentName3 != null) printStudentRecord(studentName3, studentMarks3);
     if (studentName4 != null) printStudentRecord(studentName4, studentMarks4);
